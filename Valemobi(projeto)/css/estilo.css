@@ -1,0 +1,317 @@
+*{	
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration:none;
+	color: #fff;
+}
+
+body{
+	background-color: #1C4462;
+}
+/*INDEX.HTML*/
+
+#geralIndex{
+	width: 896px;
+	height: 601px;
+	margin: auto;
+}
+
+#menuSuperior{
+	width: 896px;
+	height: 110px;
+	
+	background-color: #00B0FF;
+	text-align: center;
+	margin-top: 10px;
+	box-shadow: 1px 0 5px #fff;
+	border-radius: 25px 25px 0 0;
+	padding-top: 20px;
+}
+
+#imgFundoSuperior{
+	width: 870px;
+    height: 100px;	
+}
+
+#sessao1Index{
+	width: 896px;
+	height: 432px;
+	
+	background-color: #fff;
+	
+	margin: auto;
+	margin-top: 10px;
+}
+
+#titulo-sessao1{
+	width: 896px;
+	height: 63px;
+	
+	background-color: #D62F44;
+	box-shadow: 1px 0 5px #fff;
+}
+
+.txt-titulo-formulario{
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	
+	color: #fff;	
+	padding-top: 6px;
+}
+
+.sub-sessao{
+	width: 350px;
+	height: 273px;
+	
+	background-color: #fff;	
+	
+	margin: 56px 0 0 58px;
+	float: left;
+	
+	border: 5px solid #00B0FF;
+	box-shadow: 1px 0 5px #000;
+	border-radius: 5px 5px 0 0;
+}
+
+.titulo-sub-sessao{
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	
+	background-color: #00B0FF;
+}
+
+#txt-titulo-formulario-sub-sessao-cadastro{
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	
+	color: #fff;	
+	padding-top: 6px;
+	float: left;
+}
+
+.btns-sub-sessoes{
+	width: 280px;
+	height: 60px;
+	
+	border-radius: 5px;
+	box-shadow: 1px 0 5px #000;
+	background-color: #D62F44;	
+	
+	margin: 0 auto;
+}
+
+.txt-btns-sub-sessoes{
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+	color: #fff;
+	text-align:center;	
+	
+	padding-top: 13px;
+}
+
+.msg-sub-sessao-consultas{
+	margin-top: 61px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/*CADASTRO.HTLM*/
+#geralCadastro{
+	width: 896px;
+	height: 800px;
+
+	margin: auto;
+}
+
+#sessao1Cadastro{
+	width: 896px;
+	height: 630px;
+
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.sub-sessao-cadastro{
+	width: 886px;
+	background-color: #fff;		
+	
+	margin: 10px auto;
+	
+	
+	border: 5px solid #00B0FF;
+	box-shadow: 1px 0 5px #fff;
+	border-radius: 0 0 0 0;
+}
+
+#sub-sessao-btn-form{
+	width: 110px;
+	height: 45px;
+	float: right;
+}
+#sub-sessao-btn-form-ajuda{
+	width: 50px;
+	height: 45px; 
+	text-align: center;
+	float: left;
+}
+#sub-sessao-btn-form-fechar{
+	width: 50px; 
+	height: 45px; 
+	text-align: center;
+	float: right;
+}
+
+.titulo-form{
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;	
+	
+	width: 200px;
+	color: #000;	
+}
+
+.txt-form{	
+	height: 40px;
+	font-size: 20px;
+	background-color: #eee;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+}
+.btn-form{	
+	width: 220px;
+	height: 40px;
+	font-size: 20px;
+	margin: 95px 20px 0 0;
+	float: right;
+}
+.opc-form{
+	
+	font-size: 20px;
+	margin-top: 20px;	
+	margin-bottom: 20px;
+}
+
+#txt-codigo{width: 300px;}
+#txt-tipoMercadoria{width: 400px;}
+#txt-nomeMercadoria{width: 840px;}
+#txt-quantidade{width: 300px;}
+#txt-preco{width: 300px;}
+#txt-tipoVenda{width: 200px;}
+
+#organizacao-campos-txt-codigo{
+	float: left;
+	
+	margin: 20px 0 0 20px;
+}
+
+#organizacao-campos-txt-tipoMercadoria{
+	float: right;
+	
+	margin: 20px 26px 0 20px;
+}
+
+#organizacao-campos-txt-nomeMercadoria{
+	clear: both;
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+#organizacao-campos-txt-quantidade{
+	float: left;
+	
+	margin: 20px 0 0 20px;
+}
+
+#organizacao-campos-txt-preco{
+	float: left;
+	
+	margin: 20px 0 0 20px;
+}
+
+#organizacao-campos-txt-tipoNegocio{
+	float: left;
+	
+	margin: 20px 0 0 20px;
+}
+
+#organizacao-botoes{
+	width: 450px;
+	height: 100px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.btn-subs-config{
+	width: 200px;
+	height: 50px;
+		
+	background-color: #eee;
+	border-radius: 5px;
+	border: none;
+	float:right;
+	
+	margin-top: 35px;
+	margin-right: 20px;	
+	
+	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;	
+
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	opacity: 0.90;
+}
+
+.btn-subs-config:hover{
+	width: 200px;
+	height: 50px;
+		
+	background-color: #eee;
+	border-radius: 5px;
+	border: none;
+	float:right;
+	
+	margin-top: 35px;
+	margin-right: 20px;	
+	
+	font-size: 22px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;	
+
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	opacity: 0.90;
+}
+
+#btn-limpar-sub-cadastro{	
+	background-color: #ED2A3C;
+}
+#btn-limpar-sub-cadastro:hover{
+	background-color: #00B0FF;
+}
+
+#btn-cadastrar-sub-cadastro{
+	background-color: #ED2A3C;
+}
+
+#btn-cadastrar-sub-cadastro:hover{
+	background-color: #00B0FF;
+}
+
+/*CONSULTA.HTML*/
